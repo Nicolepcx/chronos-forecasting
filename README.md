@@ -1,7 +1,7 @@
 <div align="center">
 <img src="figures/chronos-logo.png" width="60%">
 
-# Chronos: Learning the Language of Time Series
+# This is a copy of: Chronos: Learning the Language of Time Series
 
 [![preprint](https://img.shields.io/static/v1?label=arXiv&message=2403.07815&color=B31B1B&logo=arXiv)](https://arxiv.org/abs/2403.07815)
 [![huggingface](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Datasets-FFD21E)](https://huggingface.co/datasets/autogluon/chronos_datasets)
