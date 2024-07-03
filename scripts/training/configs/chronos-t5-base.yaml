@@ -1,13 +1,11 @@
 training_data_paths:
-- "/home/ubuntu/tsmixup-data.arrow"
-- "/home/ubuntu/kernelsynth-data.arrow"
+- "/content/uber_tlc_train.arrow"
 probability:
-- 0.9
-- 0.1
-context_length: 512
-prediction_length: 64
+- 1.0
+context_length: 240
+prediction_length: 24
 min_past: 60
-max_steps: 200_000
+max_steps: 200_000 
 save_steps: 100_000
 log_steps: 500
 per_device_train_batch_size: 32
