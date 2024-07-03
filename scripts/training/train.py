@@ -44,6 +44,10 @@ from gluonts.transform import (
     LastValueImputation,
 )
 
+# Path to the chronos module from Google Colab
+chronos_path = Path('/content/chronos-forecasting/src')
+sys.path.append(str(chronos_path))
+
 from chronos import ChronosConfig, ChronosTokenizer
 
 
