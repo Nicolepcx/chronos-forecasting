@@ -1,9 +1,9 @@
 training_data_paths:
-- "/content/uber_tlc_train.arrow"
+- "./amazon_train_data.arrow"
 probability:
 - 1.0
-context_length: 240
-prediction_length: 24
+context_length: 63
+prediction_length: 10
 min_past: 60
 max_steps: 200_000 
 save_steps: 100_000
